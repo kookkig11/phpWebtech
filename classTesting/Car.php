@@ -46,3 +46,25 @@
     echo $car1->getColor() . "\n";
     echo $car2->getColor() . "\n";
 ?>
+<!--
+output:
+object(Car)#1 (2) {
+  ["color"]=>
+  string(5) "Black"
+  ["brand"]=>
+  string(4) "Ford"
+}
+
+object(Car)#2 (2) {
+  ["color"]=>
+  string(5) "Green"
+  ["brand"]=>
+  string(6) "Toyota"
+}
+
+string(5) "Black"
+string(4) "Ford"
+
+Black
+Green
+-->
